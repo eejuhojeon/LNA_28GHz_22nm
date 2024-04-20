@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<setupdb version="6">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>5280myHW2:Q2a:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>Q2a</value>
+					</option>
+					<option>lib
+						<value>5280myHW2</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>5280myHW2:Q2a:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>Q2a</value>
+					</option>
+					<option>lib
+						<value>5280myHW2</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>state1</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var>Vd
+				<value>500m</value>
+				<dependentTests>
+					<dependentTest omitted="0">Tutorial2_test:NMOS_22_iden:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Vg
+				<value>400m</value>
+				<dependentTests>
+					<dependentTest omitted="0">Tutorial2_test:NMOS_22_iden:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+	</active>
+	<history>History</history>
+</setupdb>
