@@ -1,0 +1,3 @@
+projectDir = '"./Simulation"
+designInfo = '("LNA28GHz" "Q2e_gain" "schematic" "spectre")
+descriptionText = "None"
